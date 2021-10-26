@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+   /* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    outline: none;
+    border: none;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none
+}
+
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+  
+
+.principal {
+    float: left;
+    display: flex;
+    width: 100%;
+}
+
+   /* IMAGEM DO CELULAR  */
+
+.phone {
+    width: 50%;
+         
+}
+
+.phone img {
+    width: 42%;
+    margin-left: 23vw;
+    margin-top: 10vh;
+  
+
+}
+
+   /*  TELA DE LOGIN  */
+
+.login {
+    width: 30%;
+    margin-top: 15vh;
+   
+}
+
+.continue {
+    background-color: #ffff;
+    text-align: center;
+    margin: auto;
+    padding: 20px 10px;
+    border: 0.2px solid #77777760;
+}
+
+
+.photo-profile {
+    border-radius: 50%;
+    width: 90px;
+  
+}
+
+
+.continue img {
+    margin-bottom: 15px;
+}
+
+.continue button {
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.botao {
+    background-color: #1096F1;
+    color: #ffffff;
+    padding: 7px 10px;
+    border-radius: 5px;
+   
+}
+
+   /* TELA PARA ALTERNAR CONTAS */
+
+.continue1 {
+    background-color: #ffff;
+    text-align: center;
+    margin: auto;
+    padding: 20px 10px;
+    border: 0.2px solid #77777760;
+    margin-top: 10px;
+}
+
+.continue1 p {
+   color: #777777be;
+}
+
+.continue a {
+    color: #1096F1;
+}
+
+
+.continue1 a {
+    color: #1096F1;
+}
+
+
+.photo-logo, .photo-profile, .botao, .remove-cont{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+  /*  BAIXAR APPS */
+
+.app-downloader {
+    text-align: center;
+}
+
+.app-downloader p {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.app-downloader a {
+    width: 150px;
+    display: inline-block;
+    
+}
+
+.apple-store {
+    margin-right: 20px;
+}
+
+.play-store {
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: 1050px) {
+
+
+    body {
+        background-color: #ffff;
+    }
+    
+    .phone {
+        display: none;
+    }
+     
+    .phone  img {
+        display: none;
+    }
+    
+    .principal {
+        position: relative;
+    }
+    
+    .login {
+        width: 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .continue {
+        border: none;
+        background-color: initial;
+    }
+    
+    .continue1 {
+        border: none;
+        background-color: initial;
+    }
+    
+    .app-downloader a {
+        margin: auto;
+        text-align: center;
+    }
+    
+    
+    }
+
+@media screen and (max-width: 1200px) {
+
+    .app-downloader a {
+        margin: auto;
+       
+    }
+
+}    
+
+@media screen and (max-width: 1000px) {
+
+
+body {
+    background-color: #ffff;
+}
+
+.phone {
+    display: none;
+}
+ 
+.phone  img {
+    display: none;
+}
+
+.principal {
+    position: relative;
+}
+
+.login {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.continue {
+    border: none;
+    background-color: initial;
+}
+
+.continue1 {
+    border: none;
+    background-color: initial;
+}
+
+.app-downloader a {
+    margin: auto;
+    text-align: center;
+}
+
+
+}
